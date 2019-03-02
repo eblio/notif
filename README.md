@@ -6,7 +6,7 @@ Notifications with original GTA V look, but more flexible.
 ## Installation
 * Download the resource ;
 * Drag and drop it in your resources folder ;
-* Add ```start notif``` to you ```server.cfg```.
+* Add ```start notif``` into you ```server.cfg```.
 ## How to use
 * In the chat type /me followed by your action 
 ```exports['notif'].SendNotification("lol")```
