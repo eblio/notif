@@ -20,7 +20,7 @@ exports.notif:SendNotification({
 ## Options 
 * ```type``` define where the notification will be draw ;
 * ```timeout``` define how much time (in ms) the notification is on screen ;
-* You can create your own notification position by following the pattern in the code.
+* You can create your own notification 'type' by following the pattern in the code.
 
 ## Updates
 No updates yet.
