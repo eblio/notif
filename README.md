@@ -9,7 +9,13 @@ Notifications with original GTA V look, but more flexible.
 * Add ```start notif``` into you ```server.cfg```.
 ## How to use
 * In the chat type /me followed by your action 
-```exports['notif'].SendNotification("lol")```
+```
+exports.notif:SendNotification({
+						text = "Test text.",
+						type = 'topRight',
+						timeout = 6000,
+					})
+```
 
 ## Options 
 * Color of the text : ```client.lua``` line 1 : ```local color = {r = 37, g = 175, b = 134, alpha = 255}```
