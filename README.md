@@ -8,7 +8,7 @@ Notifications with original GTA V look, but more flexible.
 * Drag and drop it in your resources folder ;
 * Add ```start notif``` into you ```server.cfg```.
 ## How to use
-* In the chat type /me followed by your action 
+* Use the export below :
 ```lua
 exports.notif:SendNotification({
 	text = "Test text.",
@@ -18,14 +18,14 @@ exports.notif:SendNotification({
 ```
 
 ## Options 
-* Color of the text : ```client.lua``` line 1 : ```local color = {r = 37, g = 175, b = 134, alpha = 255}```
-* Font of the text : ```client.lua``` line 2 : ```local font = 0``` Available fonts : https://imgur.com/a/oV3ciWs
-* Time on screen : ```client.lua``` line 2 : ```local time = 500```
-* Enable or disable the log : ```server.lua``` line 1 : ```local logEnabled = true```
+* ```type``` define where the notification will be draw ;
+* ```timeout``` define how much time (in ms) the notification is on screen ;
+* You can create your own notification position by following the pattern in the code.
 
 ## Updates
 No updates yet.
 
 ## Known bugs
+* Doesn't deal with duplicate notifications (not as default notifications do) ;
 * The centerLeft and centerRight options have some issues ;
 * Notifications with different timeout will create issues.
