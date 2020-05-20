@@ -23,6 +23,8 @@ local defaultText = '~r~~h~ERROR : ~h~~s~The text of the notification is nil.'
 local defaultType = 'topRight'
 local defaultTimeout = 6000
 
+RequestStreamedTextureDict(body.dict) -- Load the sprite dict. properly
+
 -- --------------------------------------------
 -- Calculus functions
 -- --------------------------------------------
